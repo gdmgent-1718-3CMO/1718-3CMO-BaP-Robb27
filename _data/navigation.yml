@@ -1,8 +1,8 @@
 # functie uitschakelen met '#'
 # dubbele spatie voor de criteria behouden
 
-- name: Home
-  description: Home
+- name: Ball
+  description: Ball
   # folder: pages/
   permalink: / 
   # fa-icon: icon-info
