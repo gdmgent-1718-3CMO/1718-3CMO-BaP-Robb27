@@ -1,0 +1,390 @@
+@font-face {
+    font-family: 'Ubuntu', sans-serif;
+    src: url("../fonts/Ubuntu/Ubuntu-bold.ttf");
+
+}
+
+
+/*
+.col-md-4{
+    padding:0;
+}
+.col-md-6{
+    padding:0;
+}
+
+.col-lg-4{
+    padding:0;
+}
+.col-lg-6{
+    padding:0;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+  width: 100%;
+}
+.container{
+    width: 60%;
+}
+.main-nav {
+	position: fixed;
+	top:0;
+	background: #163253;
+	height: 110px;
+	width: 100%;
+	z-index: 150;
+	margin-bottom: -80px;
+	box-shadow: 0 2px 3px rgba(0,0,0,0.4);
+}
+.main-nav-2 {
+	position: fixed;
+    float: right;
+	top:0;
+	background: #163253;
+	height: 110px;
+	width: 100%;
+	z-index: 150;
+	margin-bottom: -80px;
+	box-shadow: 0 2px 3px rgba(0,0,0,0.4);
+}
+
+.main-nav img{
+	height: 160px;
+	width: auto;
+	float: left;
+	margin-left: 50px;
+	margin-top: 20px;
+	margin-right: 40px;
+}
+
+.main-nav a{
+	text-decoration: none;
+}
+
+.main-nav a:hover{
+	text-decoration: none;
+}
+
+p{
+	font-size: 16px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: lighter;
+	line-height: 26px;
+
+}
+
+ul{
+	font-size: 16px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: lighter;
+	line-height: 24px;
+}
+
+h1{
+	font-size: 50px;
+	color: #163253;
+	font-family: 'Ubuntu', sans-serif;
+	margin-top: 30px;
+
+}
+
+h2{
+	font-size: 28px;
+	color: #163253;
+	font-family: 'Ubuntu', sans-serif;
+	margin-top: 25px;
+}
+
+.h1-header{
+    color:#163253;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+h3{
+	font-size: 20px;
+	color: #163253;
+	font-family: 'Ubuntu', sans-serif;
+	margin-top: 10px;
+	margin-bottom: 3px;
+}
+
+h4{
+	color: #163253;
+	font-size: 20px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+	line-height: 24px;
+	margin-bottom: -1px;
+	font-variant: small-caps;
+}
+
+.inleiding{
+
+}
+
+.bounding{
+	width: 30vw;
+	height: auto;
+	margin-bottom: 10px;
+}
+
+/* kleurpagina */
+
+.downloadhier{
+	text-decoration: none;
+	color: #a1add8;
+}
+.downloadhier:hover{
+	color: #a1add8;
+	border-bottom: 2px solid #a1add8;
+	text-decoration: none;
+}
+
+.kleurdonkerblauw{
+	width: 100%;
+	height: auto;
+	background-color: #163253;
+	padding-bottom: 15px;
+	margin-bottom: 60px;
+}
+.kleurmiddenblauw{
+	width: 100%;
+	height: auto;
+	background-color: #1b61a7;
+	padding-bottom: 15px;
+}
+.kleurlichtblauw{
+	width: 100%;
+	height: auto;
+	background-color: #76beea;
+	padding-bottom: 15px;
+}
+.kleurgeel{
+	width: 100%;
+	height: auto;
+	background-color: #ffcd1c;
+	padding-bottom: 15px;
+}
+.kleurgrijs{
+	width: 100%;
+	height: auto;
+	background-color: #cac7c7;
+	padding-bottom: 15px;
+}
+.kleurwit{
+	width: 100%;
+	height: auto;
+	background-color: #ffffff;
+	padding-bottom: 15px;
+
+}
+
+
+table{
+	width: 100%;
+	height: auto;
+	color: white;
+	font-size: 16px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: lighter;
+	line-height: 24px;
+	margin-top: 30px;
+}
+
+th{
+	padding-left: 30px;
+	padding-top: 15px;
+}
+
+td{
+	padding-top: 15px;
+}
+
+
+/* kleurpagina */
+
+.font{
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.font2{
+	width: 60%;
+	height: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+
+
+/* onderdelen home */
+
+#groen {
+	position: relative;
+    display:none;
+    width: 100%;
+    height: auto;
+}
+#groen2 {
+	position: relative;
+    display:none;
+    width: 100%;
+    height: auto;
+}
+#groen3 {
+	position: relative;
+    display:none;
+    width: 100%;
+    height: auto;
+}
+#groen4 {
+	position: relative;
+    display:none;
+    width: 100%;
+    height: auto;
+}
+#groen5 {
+	position: relative;
+    display:none;
+    width: 100%;
+    height: auto;
+}
+#groen6 {
+	position: relative;
+    display:none;
+    width: 100%;
+    height: auto;
+}
+#groen7 {
+	position: relative;
+    display:none;
+    width: 100%;
+    height: auto;
+}
+#groen8 {
+	position: relative;
+    display:none;
+    width: 100%;
+    height: auto;
+}
+
+.center
+{
+    display: flex;
+    align-items: center;
+}
+.center > *
+{
+    margin: 0 auto;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+.afbeeldingen-logo{
+    width: 100%;
+}
+.onderdeel-items{
+  margin-top: 150px;
+  margin-bottom: 60px;
+}
+
+.onderdeel-items2{
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.onderdeel-item:hover .onderdeel-item-content:before {
+	display: block;
+}
+
+.onderdeel-item:hover .onderdeel-item-content::before{
+	content: "";
+	display: block;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(255,255,255,0.9);
+}
+
+.onderdeel-item:hover .title{
+	opacity: 1;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 30px;
+    color:#163253;
+}
+
+.images{
+    margin-bottom: 50px;
+}
+
+.onderdeel-item{
+	position: relative;
+	width: 100%;
+	height: 270px;
+	margin-top: 10px;
+	overflow: hidden;
+
+}
+
+.onderdeel-item .title{
+	opacity: 0;
+	color: white;
+	padding: 15px;
+}
+
+.onderdeel-item-content{
+	width: 100%;
+	height: 100%;
+
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	 -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+
+.onderdeellogo{
+	background-image: url("../images/afbeeldingen-huisstijlgids/logo1.png");
+}
+.onderdeelkleur{
+  background-image: url("../images/afbeeldingen-huisstijlgids/kleur.png");
+}
+.onderdeeltypo{
+  background-image: url("../images/afbeeldingen-huisstijlgids/typo.png");
+}
+.onderdeelbeeldtaal{
+	background-image: url("../images/afbeeldingen-huisstijlgids/beeldtaal.png");
+}
+.onderdeeldownload{
+	background-image: url("../images/afbeeldingen-huisstijlgids/download.png");
+}
+.onderdeelpapier{
+	background-image: url("../images/afbeeldingen-huisstijlgids/toepassingen.png");
+}
